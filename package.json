@@ -1,0 +1,23 @@
+{
+  "name": "@machinomy/types-eth-hd-keyring",
+  "version": "0.0.1",
+  "description": "TypeScript declaration for eth-hd-keyring package",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machinomy/types-eth-hd-keyring.git"
+  },
+  "author": "Sergey Ukustov <sergey.ukustov@machinomy.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/machinomy/types-eth-hd-keyring/issues"
+  },
+  "homepage": "https://github.com/machinomy/types-eth-hd-keyring#readme",
+  "peerDependencies": {
+    "eth-hd-keyring": "1.2.2"
+  },
+  "dependencies": {
+    "@machinomy/types-ethereumjs-tx": "^0.0.7",
+    "@machinomy/types-web3": "^0.0.7"
+  }
+}
